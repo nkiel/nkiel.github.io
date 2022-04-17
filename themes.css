@@ -1,0 +1,364 @@
+[site-theme="my"] {
+
+  /* primary colors */
+  --bg-color: #F5F5F5;
+  --fnt-color: #01579B;
+  --fnt-hover: #172017;
+
+  --surface-color: #17201794;
+  /* --surface-color: rgba(#172017, 0.58); */
+  --error-color: ;
+  --success-color: ;
+  --primary-color: ;
+  --primary-alt-color: ;
+  --secondary-color: #8c6542;
+  --secondary-alt-color: ;
+
+  --on-bg-color: #005761;
+  --on-surface-color: ;
+  --on-error-color: ;
+  --on-success-color: ;
+  --on-primary-color: ;
+  --on-primary-alt-color: ;
+  --on-secondary-color: ;
+  --on-secondary-alt-color: ;
+
+  /* --fnt-fam: dinneuzeitgroteskltw01-_812426,sans-serif; */
+  --fnt-size: 50px;
+  --fnt-lh: 1.4em;
+  --fnt-alt-color: #836D45;
+
+  /* --nav-fnt-fam: museo-w01-700,museo-w05-700,serif; */
+  --nav-fnt-size: 40px;
+  --nav-fnt-lh: 1.4em;
+
+  /* 
+    background-color: #231814; */
+
+  /* --fnt-nav-size: 40px; */
+
+  /* possibly transition: color 0.4s ease 0s for hovering */
+  /* --fnt-alt-hover: ; */
+  /* --bg-color: 192,207,193; */
+
+  --Background: #F5F5F5;
+  --Foreground: #005761;
+  --Text: #01579B;
+  --Selection-Background: #ade2eb;
+  --Selection-Foreground: #FFFFFF;
+  --Buttons: #c9eef2;
+  --Second-Background: #e7f2f3;
+  --Disabled: #e7f2f3;
+  --Contrast: #E4F2F2;
+  --Active: #caedf2;
+  --Border: #d0edf1;
+  --Highlight: #d1eafa;
+  --Tree: #b6e1e780;
+  --Notifications: #e0eff1;
+  --Accent0Color: #00c6e0;
+  --Excluded-Files-Color: #c1def0;
+
+  --green: #91b859;
+  --yellow: #f6a434;
+  --blue: #6182b8;
+  --red: #e53935;
+  --purple: #7c4dff;
+  --orange: #f76d47;
+  --cyan: #39adb5;
+  --gray: #01579B;
+  --w-b: #272727;
+  --error: #e53935;
+
+  --comments-color: #01579B;
+  --variables-color: #272727;
+  --links-color: #39ADB5;
+  --functions-color: #6182B8;
+  --keywords-color: #7C4DFF;
+  --tags-color: #E53935;
+  --strings-color: #91B859;
+  --operators-color: #39ADB5;
+  --attributes-color: #F6A434;
+  --numbers-color: #F76D47;
+  --parameters-color: #F76D47;
+}
+
+/* themes borrowed from https://material-theme.com/docs/reference/color-palette/ */
+
+[app-theme="skyblue"] {
+  --Background: #F5F5F5;
+  --Foreground: #005761;
+  --Text: #01579B;
+  --Selection-Background: #ade2eb;
+  --Selection-Foreground: #FFFFFF;
+  --Buttons: #c9eef2;
+  --Second-Background: #e7f2f3;
+  --Disabled: #e7f2f3;
+  --Contrast: #E4F2F2;
+  --Active: #caedf2;
+  --Border: #d0edf1;
+  --Highlight: #d1eafa;
+  --Tree: #b6e1e780;
+  --Notifications: #e0eff1;
+  --Accent-Color: #00c6e0;
+  --Excluded-Files-Color: #c1def0;
+  --Green-Color: #91b859;
+  --Yellow-Color: #f6a434;
+  --Blue-Color: #6182b8;
+  --Red-Color: #e53935;
+  --Purple-Color: #7c4dff;
+  --Orange-Color: #f76d47;
+  --Cyan-Color: #39adb5;
+  --Gray-Color: #01579B;
+  --White-Black-Color: #272727;
+  --Error-Color: #e53935;
+  --Comments-Color: #01579B;
+  --Variables-Color: #272727;
+  --Links-Color: #39ADB5;
+  --Functions-Color: #6182B8;
+  --Keywords-Color: #7C4DFF;
+  --Tags-Color: #E53935;
+  --Strings-Color: #91B859;
+  --Operators-Color: #39ADB5;
+  --Attributes-Color: #F6A434;
+  --Numbers-Color: #F76D47;
+  --Parameters-Color: #F76D47;
+}
+
+[app-theme="nightowl"] {
+  --Background: #011627;
+  --Foreground: #d6deeb;
+  --Text: #5f7e97;
+  --Selection-Background: #5f7e9790;
+  --Selection-Foreground: #FFFFFF;
+  --Buttons: #0b253a;
+  --Second-Background: #0b2942;
+  --Disabled: #697098;
+  --Contrast: #010e1a;
+  --Active: #13344f;
+  --Border: #122d42;
+  --Highlight: #084d81;
+  --Tree: #13344f50;
+  --Notifications: #01111d;
+  --Accent-Color: #7e57c2;
+  --Excluded-Files-Color: #0e293f;
+  --Green-Color: #addb67;
+  --Yellow-Color: #ecc48d;
+  --Blue-Color: #82aaff;
+  --Red-Color: #ff6363;
+  --Purple-Color: #c792ea;
+  --Orange-Color: #f78c6c;
+  --Cyan-Color: #7fdbca;
+  --Gray-Color: #637777;
+  --White-Black-Color: #d6deeb;
+  --Error-Color: #ef5350;
+  --Comments-Color: #637777;
+  --Variables-Color: #addb67;
+  --Links-Color: #ecc48d;
+  --Functions-Color: #82aaff;
+  --Keywords-Color: #c792ea;
+  --Tags-Color: #7fdbca;
+  --Strings-Color: #ecc48d;
+  --Operators-Color: #c792ea;
+  --Attributes-Color: #addb67;
+  --Numbers-Color: #f78c6c;
+  --Parameters-Color: #d6deeb;
+}
+
+[app-theme="moonlight"] {
+  --Background: #222436;
+  --Foreground: #c8d3f5;
+  --Text: #a9b8e8;
+  --Selection-Background: #444a73;
+  --Selection-Foreground: #FFFFFF;
+  --Buttons: #444a73;
+  --Second-Background: #2f334d;
+  --Disabled: #828bb8;
+  --Contrast: #191a2a;
+  --Active: #2f334d;
+  --Border: #222436;
+  --Highlight: #444a73;
+  --Tree: #444a7370;
+  --Notifications: #191a2a;
+  --Accent-Color: #74a0f1;
+  --Excluded-Files-Color: #2f334d;
+  --Green-Color: #7af8ca;
+  --Yellow-Color: #ffdb8e;
+  --Blue-Color: #70b0ff;
+  --Red-Color: #f3c1ff;
+  --Purple-Color: #baacff;
+  --Orange-Color: #ff9668;
+  --Cyan-Color: #34d3fb;
+  --Gray-Color: #7e8eda;
+  --White-Black-Color: #c8d3f5;
+  --Error-Color: #ff5370;
+  --Comments-Color: #7e8eda;
+  --Variables-Color: #c8d3f5;
+  --Links-Color: #34d3fb;
+  --Functions-Color: #70b0ff;
+  --Keywords-Color: #baacff;
+  --Tags-Color: #ff757f;
+  --Strings-Color: #7af8ca;
+  --Operators-Color: #baacff;
+  --Attributes-Color: #ffbd76;
+  --Numbers-Color: #ff9668;
+  --Parameters-Color: #f3c1ff;
+}
+
+[app-theme="new"] {}
+
+/* the following are general element changes for theming */
+/* these changes should focus on color alone and try to use theme based variables*/
+
+:root * {
+  color: var(--Text);
+}
+
+:root *::selection {
+  background-color: var(--Selection-Background);
+  color: var(--Selection-Foreground);
+}
+
+.test-class {
+  background-color: var(--Foreground);
+  color: var(--Selection-Foreground);
+}
+
+body {
+  background-color: var(--Background);
+}
+
+
+
+a {
+  color: var(--Links-Color);
+}
+a:hover {
+  color: var(--Accent-Color);
+}
+a:active {
+  color: var(--Active);
+}
+a:disabled {
+  color: var(--Disabled);
+}
+
+button {
+  background-color: var(--Buttons);
+  border-color: var(--Border);
+}
+button:active{
+  background-color: var(--Accent-Color);
+  color: var(--Active);
+}
+
+.Background {
+  background-color: var(--Background);
+}
+.Foreground {
+  background-color: var(--Foreground);
+}
+.Text {
+  background-color: var(--Text);
+}
+.Selection-Background {
+  background-color: var(--Selection-Background);
+}
+.Selection-Foreground {
+  background-color: var(--Selection-Foreground);
+}
+.Buttons {
+  background-color: var(--Buttons);
+}
+.Second-Background {
+  background-color: var(--Second-Background);
+}
+.Disabled {
+  background-color: var(--Disabled);
+}
+.Contrast {
+  background-color: var(--Contrast);
+}
+.Active {
+  background-color: var(--Active);
+}
+.Border {
+  background-color: var(--Border);
+}
+.Highlight {
+  background-color: var(--Highlight);
+}
+.Tree {
+  background-color: var(--Tree);
+}
+.Notifications {
+  background-color: var(--Notifications);
+}
+.Accent-Color {
+  background-color: var(--Accent-Color);
+}
+.Excluded-Files-Color {
+  background-color: var(--Excluded-Files-Color);
+}
+.Green-Color {
+  background-color: var(--Green-Color);
+}
+.Yellow-Color {
+  background-color: var(--Yellow-Color);
+}
+.Blue-Color {
+  background-color: var(--Blue-Color);
+}
+.Red-Color {
+  background-color: var(--Red-Color);
+}
+.Purple-Color {
+  background-color: var(--Purple-Color);
+}
+.Orange-Color {
+  background-color: var(--Orange-Color);
+}
+.Cyan-Color {
+  background-color: var(--Cyan-Color);
+}
+.Gray-Color {
+  background-color: var(--Gray-Color);
+}
+.White-Black-Color {
+  background-color: var(--Black-Color);
+}
+.Error-Color {
+  background-color: var(--Error-Color);
+}
+.Comments-Color {
+  background-color: var(--Comments-Color);
+}
+.Variables-Color {
+  background-color: var(--Variables-Color);
+}
+.Links-Color {
+  background-color: var(--Links-Color);
+}
+.Functions-Color {
+  background-color: var(--Functions-Color);
+}
+.Keywords-Color {
+  background-color: var(--Keywords-Color);
+}
+.Tags-Color {
+  background-color: var(--Tags-Color);
+}
+.Strings-Color {
+  background-color: var(--Strings-Color);
+}
+.Operators-Color {
+  background-color: var(--Operators-Color);
+}
+.Attributes-Color {
+  background-color: var(--Attributes-Color);
+}
+.Numbers-Color {
+  background-color: var(--Numbers-Color);
+}
+.Parameters-Color {
+  background-color: var(--Parameters-Color);
+}

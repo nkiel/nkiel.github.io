@@ -1,0 +1,28 @@
+#contact-links {
+
+}
+
+#contact-links div {
+    margin: 1em;
+}
+
+#email-form * {
+    display: inline-block;
+}
+
+#email-form > * {
+    margin-top: 1em;
+}
+
+#email-msg {
+    display: inline-block;
+    width: 100%;
+}
+
+#email-submit-container {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,11 @@
+table.project-dispaly tbody tr th:first-child {
+    text-align: left;
+}
+
+table.project-dispaly thead tr th {
+    padding: .5em;
+}
+
+table.project-dispaly * {
+    padding: .5em;
+}

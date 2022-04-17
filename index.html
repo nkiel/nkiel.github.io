@@ -1,9 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+
 <head>
-  
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <meta name="theme-color" content="#000000" /> -->
+	<meta name="description" content="Noah Kiel: Software Engineer - Portfolio" />
+
+	<title>Noah Kiel - Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="/themes.css">
+	<link rel="stylesheet" type="text/css" href="/portfolio.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./experience.css"> -->
+	<link rel="stylesheet" type="text/css" href="/projects.css">
+	<link rel="stylesheet" type="text/css" href="/contact.css">
+	<link rel="stylesheet" type="text/css" href="/animations.css">
+	<script src="util.js"></script>
+	<script src="themes.js"></script>
+	<script src="contact.js"></script>
+	<script src="portfolio.js"></script>
 </head>
-<body>
-<h1>Noah Kiel</h1>
+<body id="root" app-theme="default">
+	<noscript>Your browser does not support JavaScript!</noscript>
+	<div id="page-content">
+		<div id="display-content">
+			<header id="header-content" class="rmv-txt-decoration">
+				<h1 id="title"><a href="index.html">Noah Kiel</a></h1>
+				<p id="subtitle">The Coding God</p>
+				<nav>
+					<div id="navbar">
+						<p class="nav-item" onclick="navPage('pages/home.html')">Home</p>
+						<p class="nav-item" onclick="navPage('pages/experience.html')">Experience</p>
+						<p class="nav-item" onclick="navPage('pages/projects.html')">Projects</p>
+						<p class="nav-item" onclick="navPage('pages/aboutme.html')">About Me</p>
+						<p class="nav-item" onclick="navPage('pages/contact.html')">Contact</p>
+					</div>
+				</nav>
+			</header>
+
+			<main id="main-content"><content></content></main>
+		</div>
+		
+		<footer>
+			<div id="copyright">
+				<small><i>
+						Copyright &copy; 2022 kielserver.com <br>
+						<a href="mailto:noah@kiel.com">kielnoah4@gmail.com</a>
+					</i></small>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript">
+		initializePage();
+		setTheme('moonlight');
+	</script>
 </body>
+
 </html>

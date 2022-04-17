@@ -1,0 +1,24 @@
+<div id="contact-links">
+    <h4>How to find me...</h4>
+    <div>
+        <a href="https://www.linkedin.com/in/noah-kiel-79952b16a/">LinkedIn</a>
+    </div>
+    <div>
+        <a href="https://github.com/nkiel">GitHub</a>
+    </div>
+    <!-- <div> Add more external links here </div> -->
+</div>
+<form id="email-form">
+    <label>Name:</label>
+    <input id="email-name" type="text" size="20">
+    <br />
+    <label>Subject:</label>
+    <input id="email-subject" type="text" size="40" maxlength="50">
+    <br />
+    <label>Email Message:</label>
+    <textarea id="email-msg" rows="20"></textarea>
+    <div id="email-submit-container">
+        <input type="submit" name="send" value="Send" onclick="sendMail(this)">
+        <input type="button" value="Reset" onclick="resetMailForm(this)">
+    </div>
+</form>
